@@ -187,6 +187,7 @@
     dispatch_after(popTime, dispatch_get_main_queue(), ^(void){
         if ([self.incomingPhoneNumber isEqualToString:phoneNumber]) {
             [self speakText:text];
+            [self sendLocalNotification:text];
             // 下一轮提醒
             [self notifyMessage:text afterDealy:5.0 forPhoneNumber:phoneNumber];
         }
