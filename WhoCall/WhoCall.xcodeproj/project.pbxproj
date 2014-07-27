@@ -329,7 +329,7 @@
 				ORGANIZATIONNAME = "Wang Xiaolei";
 				TargetAttributes = {
 					461320461838A357006634C7 = {
-						DevelopmentTeam = CZ2PUS96XT;
+						DevelopmentTeam = 9334LQ79VG;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 1;
